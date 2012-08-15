@@ -1,5 +1,10 @@
 <?php
 
+function mac_deregister_conflicts(){
+    wp_deregister_style('ai1ec-calendar');
+    wp_deregister_style('ai1ec-event');
+}
+add_action('wp_enqueue_scripts', 'mac_deregister_conflicts', 999);
 
 function mini_agenda_calendar_scripts_styles() {
 	$mini_agenda_calendar_url = apply_filters(
