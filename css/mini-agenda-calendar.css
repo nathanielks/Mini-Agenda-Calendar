@@ -1,0 +1,22 @@
+#ai1ec-calendar-view-container{}#ai1ec-calendar-view-container .calendar-head{color:#e68931;font-weight:700;position:relative;}
+#ai1ec-calendar-view-container .load-view{position:absolute;top:12px;left:18px;font-size:13px;}#ai1ec-calendar-view-container .load-view:link,#ai1ec-calendar-view-container .load-view:visited{color:#b0a487;}
+#ai1ec-calendar-view-container .load-view:hover{color:#e68931;}
+#ai1ec-calendar-view-container .load-view.next{left:auto;right:11px;}
+#ai1ec-calendar-view-container .weekdays{border-bottom:1px solid #e3e1dc;padding:5px 2%;}
+#ai1ec-calendar-view-container table{width:100%;padding:0 2%;}
+#ai1ec-calendar-view-container tr{width:100%;}
+#ai1ec-calendar-view-container td,#ai1ec-calendar-view-container .weekday{width:14.285714285714286%;}
+#ai1ec-calendar-view-container td{height:25px;}
+#ai1ec-calendar-view-container .weekday{float:left;display:block;font-weight:700;color:#dbdbdb;}
+#ai1ec-calendar-view-container .month-view{margin-top:10px;}
+#ai1ec-calendar-view-container .has-events{background-color:#e68931;height:25px;line-height:25px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}#ai1ec-calendar-view-container .has-events a:link,#ai1ec-calendar-view-container .has-events a:visited{color:white;font-weight:700;}
+.agenda-container{border:1px solid #e3e1dc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;padding:15px 0 0;position:relative;z-index:1;margin-bottom:20px;}.agenda-container:first-child{margin-top:0px;}
+.agenda-container .event:before{content:'';}
+.agenda-container .icon-caret-left{display:none;color:white;font-size:28px;text-shadow:-1px 0 #e3e1dc,0 1px #e3e1dc,1px 0 #ffffff,0 -1px #e3e1dc;position:absolute;top:14px;left:-9px;z-index:2;}
+.agenda-container.show-icon .icon-caret-left{display:block;}
+.events{margin-bottom:0;}
+.event{padding:0 20px 15px;border-top:1px solid #e3e1dc;}
+h4.event-title{color:#4c5359;font-size:13px;margin-bottom:4px;}
+.event-meta{font-style:italic;color:#999999;line-height:22px;}
+.event-date{color:#b0a487;font-weight:700;font-size:13px;padding:0 20px 15px;position:relative;z-index:3;background-color:white;}
+.event-content{margin-top:10px;}

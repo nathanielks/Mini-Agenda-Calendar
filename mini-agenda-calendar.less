@@ -1,0 +1,137 @@
+//COLORS         
+@desatTan: rgb(176, 164, 135);
+@orange: rgb(230, 137, 49);
+@borderGrey: rgb(227, 225, 220);
+@darkGrey: rgb(76, 83, 89);
+@lightGrey: rgb(153, 153, 153);
+
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
+
+#ai1ec-calendar-view-container{
+	.calendar-head{
+		color: @orange;
+		font-weight: 700;
+		position: relative;
+	}
+	/*.calendar-title{*/
+		/*text-align: center;*/
+	/*}*/
+	.load-view{
+		position: absolute;
+		top: 12px;
+		left: 18px;
+		font-size: 13px;
+		&:link, &:visited{
+			color: @desatTan;
+		}
+		&:hover{
+			color: @orange;
+		}
+		&.next{
+			left: auto;
+			right: 11px;
+		}
+	}
+	.weekdays{
+		border-bottom: 1px solid @borderGrey;
+		padding: 5px 2%;
+	}
+	table{
+		width: 100%;
+		padding: 0 2%
+	}
+	tr{
+		width: 100%;
+	}
+	td, .weekday{
+		width: 100/7*1%;
+	}
+
+	td{
+		height: 25px;
+	}
+	.weekday{
+		float: left;
+		display: block;
+		font-weight: 700;
+		color: rgb(219, 219, 219);
+	}
+	.month-view{
+		margin-top: 10px;
+	}
+	.has-events{
+		background-color: @orange;
+		height: 25px;
+		line-height: 25px;
+		.border-radius(3px);
+		a:link, a:visited{
+			color: white;
+			font-weight: 700;
+		}
+	}
+}
+.agenda-container{
+	border: 1px solid @borderGrey;
+	.border-radius(3px);
+	padding: 15px 0 0;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 20px;
+	&:first-child{
+		margin-top: 0px;
+	}
+	.event{
+		&:before{
+			content: '';
+		}
+	}
+	.icon-caret-left{
+		display: none;
+		color: white;
+		font-size: 28px;
+		text-shadow: -1px 0 @borderGrey, 0 1px @borderGrey, 1px 0 white, 0 -1px @borderGrey;
+		position: absolute;
+		top: 14px;
+		left: -9px;
+		z-index: 2;
+	}
+	&.show-icon{
+		.icon-caret-left{
+			display: block;
+		}
+	}
+}
+.events{
+	margin-bottom: 0;
+}
+.event{
+	padding: 0 20px 15px;
+	border-top: 1px solid @borderGrey;
+}
+h4.event-title{
+	color: @darkGrey;
+	font-size: 13px;
+	margin-bottom: 4px;
+}
+.event-meta{
+	font-style: italic;
+	color: @lightGrey;
+	line-height: 22px;
+}
+.event-date{
+	color: @desatTan;
+	font-weight: 700;
+	font-size: 13px;
+	padding: 0 20px 15px;
+	position: relative;
+	z-index: 3;
+	background-color: white;
+}
+.event-content{
+	margin-top: 10px;
+}
+
