@@ -15,7 +15,7 @@
 .agenda-container .icon-caret-left{display:none;color:white;font-size:28px;text-shadow:-1px 0 #e3e1dc,0 1px #e3e1dc,1px 0 #ffffff,0 -1px #e3e1dc;position:absolute;top:14px;left:-9px;z-index:2;}
 .agenda-container.show-icon .icon-caret-left{display:block;}
 .events{margin-bottom:0;}
-.event{padding:0 20px 15px;border-top:1px solid #e3e1dc;}
+.event{padding:12px 20px 15px;border-top:1px solid #e3e1dc;}
 h4.event-title{color:#4c5359;font-size:13px;margin-bottom:4px;}
 .event-meta{font-style:italic;color:#999999;line-height:22px;}
 .event-date{color:#b0a487;font-weight:700;font-size:13px;padding:0 20px 15px;position:relative;z-index:3;background-color:white;}

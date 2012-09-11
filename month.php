@@ -6,7 +6,7 @@
 				href="<?php echo esc_attr( $pagination_links[1]['href'] ); ?>&amp;ai1ec_post_ids=<?php echo $post_ids; ?>">
 				<i class="icon-chevron-left"></i>
 			</a>
-			<div class="calendar-title widget-title"><?php echo esc_html( $title ); ?></div>
+			<a href="#" class="calendar-title widget-title"><?php echo esc_html( $title ); ?></a>
 			<a id="<?php echo $pagination_links[2]['id']; ?>"
 				class="load-view next"
 				href="<?php echo esc_attr( $pagination_links[2]['href'] ); ?>&amp;ai1ec_post_ids=<?php echo $post_ids; ?>">
