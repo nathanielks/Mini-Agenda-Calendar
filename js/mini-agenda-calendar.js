@@ -10,7 +10,7 @@ $(document).ready(function(){
     $('a.calendar-title').live('click', function(e){
 
         e.preventDefault();
-        $('.agenda-container').hide();
+        $('.agenda-container').addClass('hide').hide();
         $('.show-icon').removeClass('show-icon');
         $('.agenda-container:first-child').addClass('show-icon');
         $('.agenda-container.hide').fadeIn().removeClass('hide');
