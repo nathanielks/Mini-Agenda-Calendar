@@ -7,7 +7,7 @@ $(document).ready(function(){
         $(date).addClass('show-icon').fadeIn().removeClass('hide');
 
     });
-    $('a.calendar-title').live('click', function(e){
+    $('#ai1ec-calendar-view').delegate('a.calendar-title', 'click', function(e){
 
         e.preventDefault();
         $('.agenda-container').addClass('hide').hide();
