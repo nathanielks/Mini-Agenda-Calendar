@@ -1,4 +1,4 @@
-$(document).ready(function(){
+jQuery(document).ready(function($){
     $('a.date').live('click', function(e){
 
         e.preventDefault();
